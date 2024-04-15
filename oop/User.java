@@ -1,13 +1,13 @@
 package oop;
 
 public class User {
-    private String name = "Kamran";
+    private String _name;
     void set_name(String name)
     {
-        this.name = name;
+        _name = name;
     }
     String get_name()
     {
-        return name;
+        return _name;
     }
 }
