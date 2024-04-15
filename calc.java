@@ -43,6 +43,7 @@ public class calc {
                 System.out.println("Not supported");
                 break;
         }
+        sc.close();
 
 
     }
