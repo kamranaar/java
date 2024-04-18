@@ -1,11 +1,7 @@
 
 public class Counter {
-    int count;
-    Counter()
-    {
-        count=0;
-    }
-    void incr()
+    static int count =5;
+    public void incr()
     {       
         count++;
     }

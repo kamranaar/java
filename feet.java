@@ -7,18 +7,20 @@ public class feet {
         Distance d2= new Distance(3,4);// this is not a constructor
         Distance d3 = new Distance(4,3);
         Counter c1 = new Counter();
+        Counter c2 = new Counter();
 
-        d1.set_distance(1, 5);
-        d2.get_diatance();
-        d3.add(d1, d2);
+       
 
-        d1.show_distance();
-        d2.show_distance();
-        d3.show_distance();
+
+
 
         
         c1.incr();
+        c2.incr();
+        Counter.count++;
         System.out.println(c1.count);
+
+
       
         
     
